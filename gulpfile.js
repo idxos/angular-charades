@@ -110,3 +110,7 @@ gulp.task('deploy', ['build'], function(){
     return gulp.src('./build/**/*')
         .pipe(ghPages());
 });
+
+
+// The default task (called when you run `gulp` from cli)
+gulp.task('default', ['build', 'buildDev', 'deploy']);
