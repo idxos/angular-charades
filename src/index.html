@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html data-ng-app="charades">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Charades App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+
+    <style>
+        .ng-hide {
+            display: none!important;
+        }
+    </style>
+
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angular-hotkeys/build/hotkeys.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- endinject -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="content/charades.css">
+    <!-- endinject -->
+
+</head>
+<body>
+    <div data-ng-include="'app/layout/shell.html'"></div>
+
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular-hotkeys/build/hotkeys.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endinject -->
+
+    <!-- Begin: Source JS -->
+    <!-- inject:js -->
+    <script src="app/charades.module.js"></script>
+    <script src="app/card/card.module.js"></script>
+
+    <!-- endinject -->
+    <!-- End: Source JS -->
+
+</body>
+</html>
