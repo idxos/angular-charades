@@ -1,0 +1,19 @@
+<div>
+
+        <!-- Game Results -->
+        <div class="game-results" ng-if="welcome.showMessage">
+            <div class="result-text">
+                {{welcome.message}}
+            </div>
+        </div>
+
+
+        <div class="firebase-cards" ng-if="welcome.started">
+            <ul>
+              <li ng-repeat="card in cards">{{ card.phrase }}</li>
+            </ul>
+        </div>
+
+
+
+</div>

@@ -15,9 +15,11 @@
     "main-bower-files": "^2.5.0"
   },
   "dependencies": {
+    "firebase": "^2.2.9",
     "gulp-gh-pages": "^0.5.2"
   },
   "bundledDependencies": [
+    "firebase",
     "gulp-gh-pages"
   ]
 }
